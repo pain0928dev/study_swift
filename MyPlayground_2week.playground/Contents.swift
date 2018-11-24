@@ -35,6 +35,15 @@ var today = (
 )
 print(today("1","2"))
 
+func dp(v1: Int, block: (String) -> String ) {
+    
+    print("\(v1) :: \(block)")
+}
+
+var str3 = "test"
+dp(v1: 11, block: {(str3) -> String in return str3 + "!!!"})
+
+
 
 
 // 리턴값 없는 경우 1
