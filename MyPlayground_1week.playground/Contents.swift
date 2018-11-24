@@ -75,9 +75,9 @@ for (index, name) in name.enumerated() {
 }
 print("---------------------------------------------")
 
-for x in 2..<10 {
+for x in 2...9 {
     print("-------------------------------------------")
-    for y in 1..<10 {
+    for y in 1...9 {
         print("\(x) x \(y) = \(x * y)")
     }
 }

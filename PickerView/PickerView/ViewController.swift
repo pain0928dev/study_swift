@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -19,7 +20,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        print("name: \(self.imgFileName[row])")
+        dp("name: \(self.imgFileName[row])")
         return self.imgFileName[row]
     }
     
@@ -69,7 +70,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         }
         
         
-        print("Dirs = \(documentsDirs)")
+        dp("Dirs = \(documentsDirs)")
         
         let fileManager = FileManager.default
         do {

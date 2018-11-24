@@ -24,12 +24,13 @@ class ViewController: UIViewController {
    
         //Timer.scheduledTimer(timeInterval: interval, target: self, selector: timeSelector, userInfo: nil, repeats: true)
         
-        timer = Timer.scheduledTimer(withTimeInterval: interval,
-                                     repeats: true) {
+        timer = Timer.scheduledTimer(withTimeInterval: interval, repeats: true) {
                                         timer in
                                         //Put the code that be called by the timer here.
                                         self.updateTime()
         }
+        
+        
      }
 
     func updateTime(){
