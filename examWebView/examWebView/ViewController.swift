@@ -62,8 +62,16 @@ class ViewController: UIViewController, WKNavigationDelegate, UISearchBarDelegat
         loadWebPage("https://m.daum.com")
     }
     @IBAction func btnGoHtml(_ sender: Any) {
+        let strHtml = "<h1> HTML String </h1><p> String 변수를 이용한 웹 페이지 </p> <p><a href=\"http://www.google.com</p>"
+        wkDisplay.loadHTMLString( strHtml, baseURL: nil)
     }
+    
     @IBAction func btnGoFile(_ sender: UIButton) {
+        let myHtmlBundle = Bundle.main
+        let filePath = myHtmlBundle.path(forResource: "htmlView", ofType: "html")
+        print("filepath:: \(filePath)")
+
+        loadWebPage(filePath!)
     }
 
     @IBAction func btnStop(_ sender: UIBarButtonItem) {

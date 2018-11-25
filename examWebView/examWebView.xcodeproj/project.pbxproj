@@ -14,6 +14,7 @@
 		EB3F207E21A91D65000B209C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3F207C21A91D65000B209C /* LaunchScreen.storyboard */; };
 		EB3F208921A91D65000B209C /* examWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F208821A91D65000B209C /* examWebViewTests.swift */; };
 		EB3F209421A91D65000B209C /* examWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F209321A91D65000B209C /* examWebViewUITests.swift */; };
+		EB3F20A221AA371A000B209C /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = EB3F20A121AA371A000B209C /* htmlView.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EB3F208F21A91D65000B209C /* examWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = examWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3F209321A91D65000B209C /* examWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examWebViewUITests.swift; sourceTree = "<group>"; };
 		EB3F209521A91D65000B209C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3F20A121AA371A000B209C /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EB3F207A21A91D65000B209C /* Assets.xcassets */,
 				EB3F207C21A91D65000B209C /* LaunchScreen.storyboard */,
 				EB3F207F21A91D65000B209C /* Info.plist */,
+				EB3F20A121AA371A000B209C /* htmlView.html */,
 			);
 			path = examWebView;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB3F20A221AA371A000B209C /* htmlView.html in Resources */,
 				EB3F207E21A91D65000B209C /* LaunchScreen.storyboard in Resources */,
 				EB3F207B21A91D65000B209C /* Assets.xcassets in Resources */,
 				EB3F207921A91D5D000B209C /* Main.storyboard in Resources */,

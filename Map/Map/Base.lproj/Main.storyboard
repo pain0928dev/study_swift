@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Map" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dGh-Km-acl">
+                                <rect key="frame" x="16" y="44" width="343" height="29"/>
+                                <segments>
+                                    <segment title="현재위치"/>
+                                    <segment title="우리집"/>
+                                    <segment title="회사"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segBtnChangePosition:" destination="BYZ-38-t0r" eventType="valueChanged" id="Tfm-q1-Q1f"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="주소" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epe-JT-fXM">
+                                <rect key="frame" x="16" y="626" width="29.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="현재위치" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Si1-zP-j0M">
+                                <rect key="frame" x="16" y="601" width="59" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="c5J-B5-8ZK">
+                                <rect key="frame" x="16" y="80" width="343" height="513"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dGh-Km-acl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="Cne-6b-YD3"/>
+                            <constraint firstItem="Si1-zP-j0M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DjH-ih-qVz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Epe-JT-fXM" secondAttribute="bottom" constant="20" id="DzW-mS-AlO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dGh-Km-acl" secondAttribute="trailing" constant="16" id="HKR-xo-adz"/>
+                            <constraint firstItem="c5J-B5-8ZK" firstAttribute="top" secondItem="dGh-Km-acl" secondAttribute="bottom" constant="8" id="Nle-ah-FHp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c5J-B5-8ZK" secondAttribute="trailing" constant="16" id="PQo-ye-Btz"/>
+                            <constraint firstItem="dGh-Km-acl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="PYK-nb-ZKG"/>
+                            <constraint firstItem="Si1-zP-j0M" firstAttribute="top" secondItem="c5J-B5-8ZK" secondAttribute="bottom" constant="8" id="Wsp-Kf-7Q3"/>
+                            <constraint firstItem="c5J-B5-8ZK" firstAttribute="top" secondItem="dGh-Km-acl" secondAttribute="bottom" constant="8" id="ZXO-Ka-3uu"/>
+                            <constraint firstItem="Epe-JT-fXM" firstAttribute="top" secondItem="Si1-zP-j0M" secondAttribute="bottom" constant="4" id="bx8-rP-8Wk"/>
+                            <constraint firstItem="c5J-B5-8ZK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lEt-Tt-H30"/>
+                            <constraint firstItem="Epe-JT-fXM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tgq-eI-xPC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblAddress" destination="Epe-JT-fXM" id="fDY-Ac-dSD"/>
+                        <outlet property="lblNowPosition" destination="Si1-zP-j0M" id="1fd-ag-2wX"/>
+                        <outlet property="mapMyView" destination="c5J-B5-8ZK" id="Vf3-R8-P16"/>
+                        <outlet property="segPlace" destination="dGh-Km-acl" id="GfH-wg-IDc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
