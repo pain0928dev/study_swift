@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB26B7D521BCA319000212C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26B7D421BCA319000212C0 /* AppDelegate.swift */; };
+		EB26B7D721BCA319000212C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26B7D621BCA319000212C0 /* ViewController.swift */; };
+		EB26B7DA21BCA319000212C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB26B7D821BCA319000212C0 /* Main.storyboard */; };
+		EB26B7DC21BCA31B000212C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB26B7DB21BCA31B000212C0 /* Assets.xcassets */; };
+		EB26B7DF21BCA31B000212C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB26B7DD21BCA31B000212C0 /* LaunchScreen.storyboard */; };
+		EB26B7EA21BCA31B000212C0 /* examTouchTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26B7E921BCA31B000212C0 /* examTouchTabTests.swift */; };
+		EB26B7F521BCA31B000212C0 /* examTouchTabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26B7F421BCA31B000212C0 /* examTouchTabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB26B7E621BCA31B000212C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB26B7C921BCA319000212C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB26B7D021BCA319000212C0;
+			remoteInfo = examTouchTab;
+		};
+		EB26B7F121BCA31B000212C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB26B7C921BCA319000212C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB26B7D021BCA319000212C0;
+			remoteInfo = examTouchTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB26B7D121BCA319000212C0 /* examTouchTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = examTouchTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB26B7D421BCA319000212C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB26B7D621BCA319000212C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB26B7D921BCA319000212C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB26B7DB21BCA31B000212C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB26B7DE21BCA31B000212C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB26B7E021BCA31B000212C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB26B7E521BCA31B000212C0 /* examTouchTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = examTouchTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB26B7E921BCA31B000212C0 /* examTouchTabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examTouchTabTests.swift; sourceTree = "<group>"; };
+		EB26B7EB21BCA31B000212C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB26B7F021BCA31B000212C0 /* examTouchTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = examTouchTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB26B7F421BCA31B000212C0 /* examTouchTabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examTouchTabUITests.swift; sourceTree = "<group>"; };
+		EB26B7F621BCA31B000212C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB26B7CE21BCA319000212C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26B7E221BCA31B000212C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26B7ED21BCA31B000212C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB26B7C821BCA319000212C0 = {
+			isa = PBXGroup;
+			children = (
+				EB26B7D321BCA319000212C0 /* examTouchTab */,
+				EB26B7E821BCA31B000212C0 /* examTouchTabTests */,
+				EB26B7F321BCA31B000212C0 /* examTouchTabUITests */,
+				EB26B7D221BCA319000212C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB26B7D221BCA319000212C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB26B7D121BCA319000212C0 /* examTouchTab.app */,
+				EB26B7E521BCA31B000212C0 /* examTouchTabTests.xctest */,
+				EB26B7F021BCA31B000212C0 /* examTouchTabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB26B7D321BCA319000212C0 /* examTouchTab */ = {
+			isa = PBXGroup;
+			children = (
+				EB26B7D421BCA319000212C0 /* AppDelegate.swift */,
+				EB26B7D621BCA319000212C0 /* ViewController.swift */,
+				EB26B7D821BCA319000212C0 /* Main.storyboard */,
+				EB26B7DB21BCA31B000212C0 /* Assets.xcassets */,
+				EB26B7DD21BCA31B000212C0 /* LaunchScreen.storyboard */,
+				EB26B7E021BCA31B000212C0 /* Info.plist */,
+			);
+			path = examTouchTab;
+			sourceTree = "<group>";
+		};
+		EB26B7E821BCA31B000212C0 /* examTouchTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB26B7E921BCA31B000212C0 /* examTouchTabTests.swift */,
+				EB26B7EB21BCA31B000212C0 /* Info.plist */,
+			);
+			path = examTouchTabTests;
+			sourceTree = "<group>";
+		};
+		EB26B7F321BCA31B000212C0 /* examTouchTabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB26B7F421BCA31B000212C0 /* examTouchTabUITests.swift */,
+				EB26B7F621BCA31B000212C0 /* Info.plist */,
+			);
+			path = examTouchTabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB26B7D021BCA319000212C0 /* examTouchTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB26B7F921BCA31B000212C0 /* Build configuration list for PBXNativeTarget "examTouchTab" */;
+			buildPhases = (
+				EB26B7CD21BCA319000212C0 /* Sources */,
+				EB26B7CE21BCA319000212C0 /* Frameworks */,
+				EB26B7CF21BCA319000212C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = examTouchTab;
+			productName = examTouchTab;
+			productReference = EB26B7D121BCA319000212C0 /* examTouchTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB26B7E421BCA31B000212C0 /* examTouchTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB26B7FC21BCA31B000212C0 /* Build configuration list for PBXNativeTarget "examTouchTabTests" */;
+			buildPhases = (
+				EB26B7E121BCA31B000212C0 /* Sources */,
+				EB26B7E221BCA31B000212C0 /* Frameworks */,
+				EB26B7E321BCA31B000212C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB26B7E721BCA31B000212C0 /* PBXTargetDependency */,
+			);
+			name = examTouchTabTests;
+			productName = examTouchTabTests;
+			productReference = EB26B7E521BCA31B000212C0 /* examTouchTabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB26B7EF21BCA31B000212C0 /* examTouchTabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB26B7FF21BCA31B000212C0 /* Build configuration list for PBXNativeTarget "examTouchTabUITests" */;
+			buildPhases = (
+				EB26B7EC21BCA31B000212C0 /* Sources */,
+				EB26B7ED21BCA31B000212C0 /* Frameworks */,
+				EB26B7EE21BCA31B000212C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB26B7F221BCA31B000212C0 /* PBXTargetDependency */,
+			);
+			name = examTouchTabUITests;
+			productName = examTouchTabUITests;
+			productReference = EB26B7F021BCA31B000212C0 /* examTouchTabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB26B7C921BCA319000212C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "402-24";
+				TargetAttributes = {
+					EB26B7D021BCA319000212C0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EB26B7E421BCA31B000212C0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB26B7D021BCA319000212C0;
+					};
+					EB26B7EF21BCA31B000212C0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB26B7D021BCA319000212C0;
+					};
+				};
+			};
+			buildConfigurationList = EB26B7CC21BCA319000212C0 /* Build configuration list for PBXProject "examTouchTab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB26B7C821BCA319000212C0;
+			productRefGroup = EB26B7D221BCA319000212C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB26B7D021BCA319000212C0 /* examTouchTab */,
+				EB26B7E421BCA31B000212C0 /* examTouchTabTests */,
+				EB26B7EF21BCA31B000212C0 /* examTouchTabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB26B7CF21BCA319000212C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26B7DF21BCA31B000212C0 /* LaunchScreen.storyboard in Resources */,
+				EB26B7DC21BCA31B000212C0 /* Assets.xcassets in Resources */,
+				EB26B7DA21BCA319000212C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26B7E321BCA31B000212C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26B7EE21BCA31B000212C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB26B7CD21BCA319000212C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26B7D721BCA319000212C0 /* ViewController.swift in Sources */,
+				EB26B7D521BCA319000212C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26B7E121BCA31B000212C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26B7EA21BCA31B000212C0 /* examTouchTabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26B7EC21BCA31B000212C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26B7F521BCA31B000212C0 /* examTouchTabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB26B7E721BCA31B000212C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB26B7D021BCA319000212C0 /* examTouchTab */;
+			targetProxy = EB26B7E621BCA31B000212C0 /* PBXContainerItemProxy */;
+		};
+		EB26B7F221BCA31B000212C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB26B7D021BCA319000212C0 /* examTouchTab */;
+			targetProxy = EB26B7F121BCA31B000212C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB26B7D821BCA319000212C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB26B7D921BCA319000212C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB26B7DD21BCA31B000212C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB26B7DE21BCA31B000212C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB26B7F721BCA31B000212C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB26B7F821BCA31B000212C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB26B7FA21BCA31B000212C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = examTouchTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.examTouchTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB26B7FB21BCA31B000212C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = examTouchTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.examTouchTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB26B7FD21BCA31B000212C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = examTouchTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.examTouchTabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/examTouchTab.app/examTouchTab";
+			};
+			name = Debug;
+		};
+		EB26B7FE21BCA31B000212C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = examTouchTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.examTouchTabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/examTouchTab.app/examTouchTab";
+			};
+			name = Release;
+		};
+		EB26B80021BCA31B000212C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = examTouchTabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.examTouchTabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = examTouchTab;
+			};
+			name = Debug;
+		};
+		EB26B80121BCA31B000212C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = examTouchTabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.examTouchTabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = examTouchTab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB26B7CC21BCA319000212C0 /* Build configuration list for PBXProject "examTouchTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB26B7F721BCA31B000212C0 /* Debug */,
+				EB26B7F821BCA31B000212C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB26B7F921BCA31B000212C0 /* Build configuration list for PBXNativeTarget "examTouchTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB26B7FA21BCA31B000212C0 /* Debug */,
+				EB26B7FB21BCA31B000212C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB26B7FC21BCA31B000212C0 /* Build configuration list for PBXNativeTarget "examTouchTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB26B7FD21BCA31B000212C0 /* Debug */,
+				EB26B7FE21BCA31B000212C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB26B7FF21BCA31B000212C0 /* Build configuration list for PBXNativeTarget "examTouchTabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB26B80021BCA31B000212C0 /* Debug */,
+				EB26B80121BCA31B000212C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB26B7C921BCA319000212C0 /* Project object */;
+}
