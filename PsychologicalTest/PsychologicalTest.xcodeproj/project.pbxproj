@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB3E034521C48BF50010E616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E034421C48BF50010E616 /* AppDelegate.swift */; };
+		EB3E034721C48BF50010E616 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB3E034621C48BF50010E616 /* GameScene.sks */; };
+		EB3E034921C48BF50010E616 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB3E034821C48BF50010E616 /* Actions.sks */; };
+		EB3E034B21C48BF50010E616 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E034A21C48BF50010E616 /* GameScene.swift */; };
+		EB3E034D21C48BF50010E616 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E034C21C48BF50010E616 /* GameViewController.swift */; };
+		EB3E035021C48BF50010E616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3E034E21C48BF50010E616 /* Main.storyboard */; };
+		EB3E035221C48BF70010E616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3E035121C48BF70010E616 /* Assets.xcassets */; };
+		EB3E035521C48BF70010E616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3E035321C48BF70010E616 /* LaunchScreen.storyboard */; };
+		EB3E036021C48BF80010E616 /* PsychologicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E035F21C48BF80010E616 /* PsychologicalTestTests.swift */; };
+		EB3E036B21C48BF80010E616 /* PsychologicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E036A21C48BF80010E616 /* PsychologicalTestUITests.swift */; };
+		EB3E037921C490170010E616 /* CardDisplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB3E037821C490170010E616 /* CardDisplayScene.sks */; };
+		EB3E037B21C4907A0010E616 /* CardDisplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E037A21C4907A0010E616 /* CardDisplayScene.swift */; };
+		EB3E037D21C4988D0010E616 /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E037C21C4988D0010E616 /* card.swift */; };
+		EB3E038021C4A7760010E616 /* CardSpark.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB3E037F21C4A7760010E616 /* CardSpark.sks */; };
+		EB3E038321C4AA160010E616 /* CardMagic.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB3E038121C4AA160010E616 /* CardMagic.sks */; };
+		EB3E038421C4AA160010E616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3E038221C4AA160010E616 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB3E035C21C48BF80010E616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB3E033921C48BF50010E616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3E034021C48BF50010E616;
+			remoteInfo = PsychologicalTest;
+		};
+		EB3E036721C48BF80010E616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB3E033921C48BF50010E616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3E034021C48BF50010E616;
+			remoteInfo = PsychologicalTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB3E034121C48BF50010E616 /* PsychologicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PsychologicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3E034421C48BF50010E616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB3E034621C48BF50010E616 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EB3E034821C48BF50010E616 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		EB3E034A21C48BF50010E616 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EB3E034C21C48BF50010E616 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EB3E034F21C48BF50010E616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB3E035121C48BF70010E616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB3E035421C48BF70010E616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB3E035621C48BF70010E616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3E035B21C48BF80010E616 /* PsychologicalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychologicalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3E035F21C48BF80010E616 /* PsychologicalTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologicalTestTests.swift; sourceTree = "<group>"; };
+		EB3E036121C48BF80010E616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3E036621C48BF80010E616 /* PsychologicalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychologicalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3E036A21C48BF80010E616 /* PsychologicalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologicalTestUITests.swift; sourceTree = "<group>"; };
+		EB3E036C21C48BF80010E616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3E037821C490170010E616 /* CardDisplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CardDisplayScene.sks; sourceTree = "<group>"; };
+		EB3E037A21C4907A0010E616 /* CardDisplayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDisplayScene.swift; sourceTree = "<group>"; };
+		EB3E037C21C4988D0010E616 /* card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
+		EB3E037F21C4A7760010E616 /* CardSpark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CardSpark.sks; sourceTree = "<group>"; };
+		EB3E038121C4AA160010E616 /* CardMagic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CardMagic.sks; sourceTree = "<group>"; };
+		EB3E038221C4AA160010E616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB3E033E21C48BF50010E616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3E035821C48BF80010E616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3E036321C48BF80010E616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB3E033821C48BF50010E616 = {
+			isa = PBXGroup;
+			children = (
+				EB3E034321C48BF50010E616 /* PsychologicalTest */,
+				EB3E035E21C48BF80010E616 /* PsychologicalTestTests */,
+				EB3E036921C48BF80010E616 /* PsychologicalTestUITests */,
+				EB3E034221C48BF50010E616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB3E034221C48BF50010E616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB3E034121C48BF50010E616 /* PsychologicalTest.app */,
+				EB3E035B21C48BF80010E616 /* PsychologicalTestTests.xctest */,
+				EB3E036621C48BF80010E616 /* PsychologicalTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB3E034321C48BF50010E616 /* PsychologicalTest */ = {
+			isa = PBXGroup;
+			children = (
+				EB3E037E21C49C830010E616 /* cardDisplay */,
+				EB3E034421C48BF50010E616 /* AppDelegate.swift */,
+				EB3E034621C48BF50010E616 /* GameScene.sks */,
+				EB3E034821C48BF50010E616 /* Actions.sks */,
+				EB3E034A21C48BF50010E616 /* GameScene.swift */,
+				EB3E034C21C48BF50010E616 /* GameViewController.swift */,
+				EB3E034E21C48BF50010E616 /* Main.storyboard */,
+				EB3E035121C48BF70010E616 /* Assets.xcassets */,
+				EB3E035321C48BF70010E616 /* LaunchScreen.storyboard */,
+				EB3E035621C48BF70010E616 /* Info.plist */,
+			);
+			path = PsychologicalTest;
+			sourceTree = "<group>";
+		};
+		EB3E035E21C48BF80010E616 /* PsychologicalTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB3E035F21C48BF80010E616 /* PsychologicalTestTests.swift */,
+				EB3E036121C48BF80010E616 /* Info.plist */,
+			);
+			path = PsychologicalTestTests;
+			sourceTree = "<group>";
+		};
+		EB3E036921C48BF80010E616 /* PsychologicalTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB3E036A21C48BF80010E616 /* PsychologicalTestUITests.swift */,
+				EB3E036C21C48BF80010E616 /* Info.plist */,
+			);
+			path = PsychologicalTestUITests;
+			sourceTree = "<group>";
+		};
+		EB3E037E21C49C830010E616 /* cardDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				EB3E037C21C4988D0010E616 /* card.swift */,
+				EB3E037A21C4907A0010E616 /* CardDisplayScene.swift */,
+				EB3E037F21C4A7760010E616 /* CardSpark.sks */,
+				EB3E037821C490170010E616 /* CardDisplayScene.sks */,
+				EB3E038121C4AA160010E616 /* CardMagic.sks */,
+				EB3E038221C4AA160010E616 /* Assets.xcassets */,
+			);
+			path = cardDisplay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB3E034021C48BF50010E616 /* PsychologicalTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3E036F21C48BF80010E616 /* Build configuration list for PBXNativeTarget "PsychologicalTest" */;
+			buildPhases = (
+				EB3E033D21C48BF50010E616 /* Sources */,
+				EB3E033E21C48BF50010E616 /* Frameworks */,
+				EB3E033F21C48BF50010E616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PsychologicalTest;
+			productName = PsychologicalTest;
+			productReference = EB3E034121C48BF50010E616 /* PsychologicalTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB3E035A21C48BF80010E616 /* PsychologicalTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3E037221C48BF80010E616 /* Build configuration list for PBXNativeTarget "PsychologicalTestTests" */;
+			buildPhases = (
+				EB3E035721C48BF80010E616 /* Sources */,
+				EB3E035821C48BF80010E616 /* Frameworks */,
+				EB3E035921C48BF80010E616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB3E035D21C48BF80010E616 /* PBXTargetDependency */,
+			);
+			name = PsychologicalTestTests;
+			productName = PsychologicalTestTests;
+			productReference = EB3E035B21C48BF80010E616 /* PsychologicalTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB3E036521C48BF80010E616 /* PsychologicalTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3E037521C48BF80010E616 /* Build configuration list for PBXNativeTarget "PsychologicalTestUITests" */;
+			buildPhases = (
+				EB3E036221C48BF80010E616 /* Sources */,
+				EB3E036321C48BF80010E616 /* Frameworks */,
+				EB3E036421C48BF80010E616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB3E036821C48BF80010E616 /* PBXTargetDependency */,
+			);
+			name = PsychologicalTestUITests;
+			productName = PsychologicalTestUITests;
+			productReference = EB3E036621C48BF80010E616 /* PsychologicalTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB3E033921C48BF50010E616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "402-24";
+				TargetAttributes = {
+					EB3E034021C48BF50010E616 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EB3E035A21C48BF80010E616 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB3E034021C48BF50010E616;
+					};
+					EB3E036521C48BF80010E616 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB3E034021C48BF50010E616;
+					};
+				};
+			};
+			buildConfigurationList = EB3E033C21C48BF50010E616 /* Build configuration list for PBXProject "PsychologicalTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB3E033821C48BF50010E616;
+			productRefGroup = EB3E034221C48BF50010E616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB3E034021C48BF50010E616 /* PsychologicalTest */,
+				EB3E035A21C48BF80010E616 /* PsychologicalTestTests */,
+				EB3E036521C48BF80010E616 /* PsychologicalTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB3E033F21C48BF50010E616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3E038021C4A7760010E616 /* CardSpark.sks in Resources */,
+				EB3E035021C48BF50010E616 /* Main.storyboard in Resources */,
+				EB3E034721C48BF50010E616 /* GameScene.sks in Resources */,
+				EB3E035221C48BF70010E616 /* Assets.xcassets in Resources */,
+				EB3E037921C490170010E616 /* CardDisplayScene.sks in Resources */,
+				EB3E035521C48BF70010E616 /* LaunchScreen.storyboard in Resources */,
+				EB3E034921C48BF50010E616 /* Actions.sks in Resources */,
+				EB3E038421C4AA160010E616 /* Assets.xcassets in Resources */,
+				EB3E038321C4AA160010E616 /* CardMagic.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3E035921C48BF80010E616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3E036421C48BF80010E616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB3E033D21C48BF50010E616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3E034B21C48BF50010E616 /* GameScene.swift in Sources */,
+				EB3E034D21C48BF50010E616 /* GameViewController.swift in Sources */,
+				EB3E034521C48BF50010E616 /* AppDelegate.swift in Sources */,
+				EB3E037D21C4988D0010E616 /* card.swift in Sources */,
+				EB3E037B21C4907A0010E616 /* CardDisplayScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3E035721C48BF80010E616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3E036021C48BF80010E616 /* PsychologicalTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3E036221C48BF80010E616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3E036B21C48BF80010E616 /* PsychologicalTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB3E035D21C48BF80010E616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB3E034021C48BF50010E616 /* PsychologicalTest */;
+			targetProxy = EB3E035C21C48BF80010E616 /* PBXContainerItemProxy */;
+		};
+		EB3E036821C48BF80010E616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB3E034021C48BF50010E616 /* PsychologicalTest */;
+			targetProxy = EB3E036721C48BF80010E616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB3E034E21C48BF50010E616 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3E034F21C48BF50010E616 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB3E035321C48BF70010E616 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3E035421C48BF70010E616 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB3E036D21C48BF80010E616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB3E036E21C48BF80010E616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB3E037021C48BF80010E616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PsychologicalTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.PsychologicalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB3E037121C48BF80010E616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PsychologicalTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.PsychologicalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB3E037321C48BF80010E616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PsychologicalTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.PsychologicalTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PsychologicalTest.app/PsychologicalTest";
+			};
+			name = Debug;
+		};
+		EB3E037421C48BF80010E616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PsychologicalTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.PsychologicalTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PsychologicalTest.app/PsychologicalTest";
+			};
+			name = Release;
+		};
+		EB3E037621C48BF80010E616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PsychologicalTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.PsychologicalTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PsychologicalTest;
+			};
+			name = Debug;
+		};
+		EB3E037721C48BF80010E616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PsychologicalTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thejoeun.PsychologicalTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PsychologicalTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB3E033C21C48BF50010E616 /* Build configuration list for PBXProject "PsychologicalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3E036D21C48BF80010E616 /* Debug */,
+				EB3E036E21C48BF80010E616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3E036F21C48BF80010E616 /* Build configuration list for PBXNativeTarget "PsychologicalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3E037021C48BF80010E616 /* Debug */,
+				EB3E037121C48BF80010E616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3E037221C48BF80010E616 /* Build configuration list for PBXNativeTarget "PsychologicalTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3E037321C48BF80010E616 /* Debug */,
+				EB3E037421C48BF80010E616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3E037521C48BF80010E616 /* Build configuration list for PBXNativeTarget "PsychologicalTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3E037621C48BF80010E616 /* Debug */,
+				EB3E037721C48BF80010E616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB3E033921C48BF50010E616 /* Project object */;
+}
